@@ -18,7 +18,7 @@
   - name: launching ec2 instance
     ec2:
       instance_type: t2.micro
-      key_name: devops
+      key_name: devops1
       image: ami-070cde024eac8f4a1
       region: us-east-1
       group: All-Traffic
